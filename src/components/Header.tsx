@@ -4,25 +4,25 @@ import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
-    <div className="nav">
-      <div className="nav-icons">
-        <FaUsers className="nav-icon" />
-        <FaBell className="nav-icon" />
+    <div className="py-4 px-2 flex justify-around items-center nav alta-gray-bg font-semibold font-sans text-2xl">
+      <div className="flex w-64">
+        <FaUsers className="alta-white text-3xl" />
+        <FaBell className="alta-white text-3xl" />
         <Link to="/profile">
-          <FaCog className="nav-icon" />
+          <FaCog className="alta-white text-3xl" />
         </Link>
       </div>
 
-      <div className="nav-menu">
-        <Link to="/">Home</Link>
-        <Link to="/shop">Shop</Link>
-        <Link to="/vault">Vault</Link>
-        <Link to="/supporter">Supporter</Link>
+      <div>
+        <Link className="alta-white" to="/">Home</Link>
+        <Link className="alta-white" to="/shop">Shop</Link>
+        <Link className="alta-white" to="/vault">Vault</Link>
+        <Link className="alta-white" to="/supporter">Supporter</Link>
       </div>
 
-      <div className="nav-faq">
-        <Link to="/profile">
-          <FaQuestion className="nav-icon-small" />
+      <div>
+        <Link className="alta-white" to="/profile">
+          <FaQuestion className="" />
         </Link>
       </div>
     </div>
