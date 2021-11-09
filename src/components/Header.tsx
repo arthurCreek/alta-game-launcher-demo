@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   })
 
   return (
-    <div className="py-4 px-2 flex justify-between items-center nav alta-gray-bg font-semibold font-sans text-2xl w-screen">
+    <div className="py-4 px-2 flex justify-between items-center nav alta-gray-bg font-semibold font-sans text-2xl w-screen fixed z-10 top-0">
       <div className="flex w-80 justify-between">
         <img src={require('../assets/township-logo.png')} alt="Township Tale Logo" className="w-8 h-8"/>
         <FaUsers className="alta-white text-3xl" />

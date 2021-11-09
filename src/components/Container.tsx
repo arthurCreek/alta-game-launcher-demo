@@ -12,6 +12,12 @@ import Profile from '../pages/Profile';
 const Container: React.FC = () => {
   return (
     <HashRouter>
+      {/* <div
+        className="bg-cover bg-no-repeat bg-fixed transform h-screen absolute top-0 z-0 w-full"
+        style={{
+          backgroundImage: `url(${require('../assets/att-home-bg.jpg')})`,
+        }}
+      > */}
       <div>
         <Header />
         <Routes>

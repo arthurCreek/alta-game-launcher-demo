@@ -16,3 +16,31 @@ body {
 .alta-gray-bg {
   background-color: #1d1d1d;
 }
+
+.alta-play-bg {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.alta-min-height-full {
+  min-height: calc(100vh - 64px);
+}
+
+.w-112 {
+  width: 28rem;
+}
+
+.w-home-right {
+  width: calc(100% - 32rem);
+}
+
+.w-128 {
+  width: 32rem;
+}
+
+.header-height-margin {
+  margin-top: 64px;
+}
+
+.max-height-with-header {
+  max-height: calc(100vh - 64px);
+}
