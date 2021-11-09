@@ -97,7 +97,7 @@ const Home: React.FC = () => {
           <div className="flex w-112 my-0 mx-auto items-center justify-between">
             <button
               onClick={handlePlay}
-              className="w-88 py-2 font-bold text-lg bg-blue-500 rounded-md alta-white"
+              className="w-88 py-2 font-bold text-lg bg-blue-500 hover:bg-blue-600 transition rounded-md alta-white"
             >
               Play
             </button>
