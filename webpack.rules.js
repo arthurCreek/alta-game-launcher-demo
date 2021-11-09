@@ -22,8 +22,12 @@ module.exports = [
     use: {
       loader: 'ts-loader',
       options: {
-        transpileOnly: true
-      }
-    }
+        transpileOnly: true,
+      },
+    },
   },
+  { test: /\.(png|jpg)$/, loader: 'url-loader', options: {
+    limit: 8192,
+    esModule: false
+  } },
 ];
