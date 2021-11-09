@@ -17,6 +17,9 @@
     "email": "turo310@gmail.com"
   },
   "license": "MIT",
+  "browser": {
+    "child_process": false
+  },
   "config": {
     "forge": {
       "packagerConfig": {},
