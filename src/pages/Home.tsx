@@ -108,11 +108,10 @@ const Home: React.FC = () => {
 
         {/* Home Right Section */}
         <div className="flex flex-col items-center flex-shrink w-home-right max-height-with-header ml-auto mr-0 overflow-y-auto z-10">
-          <div>
+          <div className="w-11/12 h-auto py-8 mx-auto cursor-pointer rounded-lg">
             <img
               src={require('../assets/get-the-starter-pack.jpg')}
               alt="Township Tale Logo"
-              className="w-11/12 h-auto py-8 mx-auto cursor-pointer rounded-lg"
             />
           </div>
           <div className="w-11/12 h-auto py-8 mx-auto cursor-pointer rounded-lg">
@@ -230,7 +229,9 @@ const Home: React.FC = () => {
 
           {/* End left/right sections - Load more */}
           <div className="w-11/12 alta-play-bg rounded-md mb-8 cursor-pointer transform hover:scale-105 transition">
-            <p className="alta-white font-bold text-3xl text-center py-4">Load Next</p>
+            <p className="alta-white font-bold text-3xl text-center py-4">
+              Load Next
+            </p>
           </div>
         </div>
       </div>
